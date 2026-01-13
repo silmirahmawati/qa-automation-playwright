@@ -13,20 +13,6 @@ This project demonstrates real-world web testing scenarios with clean structure,
 
 ---
 
-## 📂 Project Structure
-qa-automation-playwright
-├── tests # Test cases
-│ ├── smoke.spec.js
-│ └── login.spec.js
-├── pages # Page Object Models
-│ └── LoginPage.js
-├── fixtures # Test data (future ready)
-├── utils # Helper utilities
-├── playwright.config.js
-└── README.md
-
----
-
 ## 🧪 Test Scenarios Covered
 ### Smoke Test
 - Open SauceDemo homepage
