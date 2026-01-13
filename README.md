@@ -25,9 +25,6 @@ qa-automation-playwright
 ├── playwright.config.js
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🧪 Test Scenarios Covered
@@ -42,29 +39,25 @@ Copy code
 
 ---
 
+## 📊 Test Report
+- Playwright automatically generates an HTML report including:
+- Test status (pass/fail)
+- Execution time
+- Screenshot & video on failure
+
+
 ## ▶️ How to Run the Tests
 Install dependencies:
 ```bash
 npm install
 npx playwright install
+
 Run all tests:
-
-bash
-Copy code
 npm test
+
 Run tests with browser UI:
-
-bash
-Copy code
 npm run test:headed
-Open HTML report:
 
-bash
-Copy code
+Open HTML report:
 npm run test:report
 
-📊 Test Report
-Playwright automatically generates an HTML report including:
-Test status (pass/fail)
-Execution time
-Screenshot & video on failure
